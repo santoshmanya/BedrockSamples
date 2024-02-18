@@ -7,6 +7,7 @@ Mini repo to evaluate AWS Bedrock services based on AWS sample code. As a java p
     "boto3>=1.28.57" \
     "awscli>=1.29.57" \
     "botocore>=1.31.57"
+    
 **text**
 %pip install  \
     "langchain>=0.0.350" \
@@ -20,8 +21,11 @@ Mini repo to evaluate AWS Bedrock services based on AWS sample code. As a java p
     "ipywidgets>=7,<8" \
     matplotlib==3.8.2 \
     anthropic==0.9.0
+    
 %pip install datasets==2.15.0
+
 %pip install numexpr==2.8.8
+
 **agents**
 %pip install --quiet \
     xmltodict==0.13.0  \
@@ -31,11 +35,16 @@ Mini repo to evaluate AWS Bedrock services based on AWS sample code. As a java p
     langchain_experimental \
     pysqlite3 \
     google-search-results
-**entity extraction
+    
+****entity extraction**
+
 **%pip install --quiet beautifulsoup4==4.12.2
 **image**
+
 %pip install --quiet "pillow>=9.5,<10"
+
 **guardrails**
+
 %%bash
 apt-get update && apt-get install g++ -y
 %pip install -qU --no-cache-dir nemoguardrails==0.5.0
